@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/airheader"
+    tools:context=".admin.AktivasiTentor">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENERIMAN TENTOR BARU"
+        android:textAlignment="center"
+        android:paddingTop="40sp"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:layout_marginTop="50sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Tentor"/>
+        <EditText
+            android:id="@+id/namatentorbaruID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Tentor"/>
+        <EditText
+            android:id="@+id/emailtentorbaruID"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/tolakID"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="TOLAK"/>
+            <Button
+                android:id="@+id/terimaID"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="TERIMA"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

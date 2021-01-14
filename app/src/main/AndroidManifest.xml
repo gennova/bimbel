@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aie.bimbelaie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="stateHidden">
+        <activity android:name=".tentor.List_Aktivitas_Tentor"></activity>
+        <activity android:name=".admin.AdminAddLes" />
+        <activity android:name=".admin.DaftarPresensiTentor" />
+        <activity android:name=".admin.AktivasiTentor" />
+        <activity android:name=".admin.AktivasiLes" />
+        <activity android:name=".admin.AktivitasTentor" />
+        <activity android:name=".admin.TentorBaru" />
+        <activity android:name=".admin.SiswaBaru" />
+        <activity android:name=".admin.DaftarTentor" />
+        <activity android:name=".admin.DaftarSiswa" />
+        <activity android:name=".tentor.PresensiTentor" />
+        <activity android:name=".tentor.LesAktifTentor" />
+        <activity android:name=".tentor.ProfilTentor" />
+        <activity android:name=".murid.DaftarHarga" />
+        <activity android:name=".murid.Lesku" />
+        <activity android:name=".murid.ProfilMurid" />
+        <activity android:name=".tentor.TentorActivity" />
+        <activity android:name=".murid.MuridActivity" />
+        <activity android:name=".admin.AdminActivity" />
+        <activity android:name=".KunjunganTentor" />
+        <activity android:name=".RegistrasiTentor" />
+        <activity android:name=".Registrasi" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

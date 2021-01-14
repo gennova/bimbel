@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/airheader"
+    tools:context=".admin.DaftarSiswa">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR SISWA"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <RelativeLayout
+        android:paddingTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="540sp">
+        <ListView
+            android:layout_marginTop="0sp"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

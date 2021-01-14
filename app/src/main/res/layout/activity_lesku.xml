@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/airheader"
+    tools:context=".murid.Lesku">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA LES AKTIF KU"
+        android:textAlignment="center"
+        android:layout_marginTop="50sp"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <LinearLayout
+        android:layout_marginTop="45sp"
+        android:padding="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="Jadwal Les"/>
+            <TextView
+                android:id="@+id/jadwalLesID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="......"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="Nama Tentor"/>
+            <TextView
+                android:id="@+id/namatentorID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="......"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="Status Les"/>
+            <TextView
+                android:id="@+id/statuslesID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MENUNGGU PERSETUJUAN"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="Nama Tentor"/>
+            <TextView
+                android:id="@+id/namaTentorMuridID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="....."/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
