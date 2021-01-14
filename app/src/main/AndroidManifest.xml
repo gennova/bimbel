@@ -13,7 +13,8 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         android:windowSoftInputMode="stateHidden">
-        <activity android:name=".tentor.List_Aktivitas_Tentor"></activity>
+        <activity android:name=".admin.AdminDetailTentor"></activity>
+        <activity android:name=".tentor.List_Aktivitas_Tentor" />
         <activity android:name=".admin.AdminAddLes" />
         <activity android:name=".admin.DaftarPresensiTentor" />
         <activity android:name=".admin.AktivasiTentor" />

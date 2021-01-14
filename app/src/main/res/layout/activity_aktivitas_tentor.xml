@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".admin.AktivitasTentor">
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA AKTIVITAS TENTOR"/>
+    <!-- Editext for Search -->
+    <EditText android:id="@+id/inputSearchProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search data.."
+        android:inputType="textVisiblePassword"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- List View -->
+    <ListView
+        android:id="@+id/list_view_product"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

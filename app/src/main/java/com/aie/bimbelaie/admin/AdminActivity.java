@@ -62,7 +62,8 @@ public class AdminActivity extends AppCompatActivity {
         aktivitas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(AdminActivity.this,AktivitasTentor.class);
+                //Intent intent= new Intent(AdminActivity.this,AktivitasTentor.class);
+                Intent intent= new Intent(AdminActivity.this,AdminDetailTentor.class);
                 startActivity(intent);
             }
         });
