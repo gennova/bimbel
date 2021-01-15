@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aie.bimbelaie">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aie.tendydeveloper">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.CAMERA"  tools:node="remove"  />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,32 +13,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
+        android:testOnly="false"
         android:windowSoftInputMode="stateHidden">
-        <activity android:name=".admin.AdminDetailTentor"></activity>
-        <activity android:name=".tentor.List_Aktivitas_Tentor" />
-        <activity android:name=".admin.AdminAddLes" />
-        <activity android:name=".admin.DaftarPresensiTentor" />
-        <activity android:name=".admin.AktivasiTentor" />
-        <activity android:name=".admin.AktivasiLes" />
-        <activity android:name=".admin.AktivitasTentor" />
-        <activity android:name=".admin.TentorBaru" />
-        <activity android:name=".admin.SiswaBaru" />
-        <activity android:name=".admin.DaftarTentor" />
-        <activity android:name=".admin.DaftarSiswa" />
-        <activity android:name=".tentor.PresensiTentor" />
-        <activity android:name=".tentor.LesAktifTentor" />
-        <activity android:name=".tentor.ProfilTentor" />
-        <activity android:name=".murid.DaftarHarga" />
-        <activity android:name=".murid.Lesku" />
-        <activity android:name=".murid.ProfilMurid" />
-        <activity android:name=".tentor.TentorActivity" />
-        <activity android:name=".murid.MuridActivity" />
-        <activity android:name=".admin.AdminActivity" />
-        <activity android:name=".KunjunganTentor" />
-        <activity android:name=".RegistrasiTentor" />
-        <activity android:name=".Registrasi" />
-        <activity android:name=".Login" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.aie.tendydeveloper.admin.AdminDetailTentor"></activity>
+        <activity android:name="com.aie.tendydeveloper.tentor.List_Aktivitas_Tentor" />
+        <activity android:name="com.aie.tendydeveloper.admin.AdminAddLes" />
+        <activity android:name="com.aie.tendydeveloper.admin.DaftarPresensiTentor" />
+        <activity android:name="com.aie.tendydeveloper.admin.AktivasiTentor" />
+        <activity android:name="com.aie.tendydeveloper.admin.AktivasiLes" />
+        <activity android:name="com.aie.tendydeveloper.admin.AktivitasTentor" />
+        <activity android:name="com.aie.tendydeveloper.admin.TentorBaru" />
+        <activity android:name="com.aie.tendydeveloper.admin.SiswaBaru" />
+        <activity android:name="com.aie.tendydeveloper.admin.DaftarTentor" />
+        <activity android:name="com.aie.tendydeveloper.admin.DaftarSiswa" />
+        <activity android:name="com.aie.tendydeveloper.tentor.PresensiTentor" />
+        <activity android:name="com.aie.tendydeveloper.tentor.LesAktifTentor" />
+        <activity android:name="com.aie.tendydeveloper.tentor.ProfilTentor" />
+        <activity android:name="com.aie.tendydeveloper.murid.DaftarHarga" />
+        <activity android:name="com.aie.tendydeveloper.murid.Lesku" />
+        <activity android:name="com.aie.tendydeveloper.murid.ProfilMurid" />
+        <activity android:name="com.aie.tendydeveloper.tentor.TentorActivity" />
+        <activity android:name="com.aie.tendydeveloper.murid.MuridActivity" />
+        <activity android:name="com.aie.tendydeveloper.admin.AdminActivity" />
+        <activity android:name="com.aie.tendydeveloper.KunjunganTentor" />
+        <activity android:name="com.aie.tendydeveloper.RegistrasiTentor" />
+        <activity android:name="com.aie.tendydeveloper.Registrasi" />
+        <activity android:name="com.aie.tendydeveloper.Login" />
+        <activity android:name="com.aie.tendydeveloper.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -40,6 +40,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="HP/WA TENTOR"/>
+        <EditText
+            android:id="@+id/HPtentorID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="JENJANG SEKOLAH (SD,SMP,SMA)"/>
         <EditText
             android:hint="jenjang pendidikan yang diampu"

@@ -1,19 +1,17 @@
 {
-  "version": 1,
+  "version": 2,
   "artifactType": {
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.aie.bimbelaie",
-  "variantName": "release",
+  "applicationId": "com.aie.tendydeveloper",
+  "variantName": "processReleaseResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "properties": [],
-      "versionCode": 2,
-      "versionName": "2.0",
-      "enabled": true,
+      "versionCode": 5,
+      "versionName": "5.1 Lamtoro",
       "outputFile": "app-release.apk"
     }
   ]

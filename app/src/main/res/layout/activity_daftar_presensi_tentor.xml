@@ -14,13 +14,114 @@
         android:layout_marginTop="50sp"
         android:textStyle="bold"
         android:text="DAFTAR PRESENSI TENTOR"/>
+
         <LinearLayout
-            android:paddingTop="50sp"
+            android:padding="20sp"
+            android:layout_marginTop="20sp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <ListView
-                android:id="@+id/listpresensiID"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="wrap_content"
+                android:text="Nama"/>
+            <TextView
+                android:layout_marginBottom="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namatentor"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"/>
+            <TextView
+                android:layout_marginBottom="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"/>
+            <TextView
+                android:layout_marginBottom="10sp"
+                android:textColor="@color/merah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/passwordtentor"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HP/WA"/>
+            <TextView
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:layout_marginBottom="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hptentor"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenjang"/>
+            <TextView
+                android:layout_marginBottom="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/jenjangtentor"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mapel"/>
+            <TextView
+                android:layout_marginBottom="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mapeltentor"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hari dan jam tersedia"/>
+            <TextView
+                android:layout_marginBottom="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/harijamtentor"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga Perjam"/>
+            <TextView
+                android:layout_marginBottom="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hargadiritentor"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"/>
+            <TextView
+                android:maxLines="4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alamattentor"/>
         </LinearLayout>
 </LinearLayout>
